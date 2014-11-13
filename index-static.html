@@ -3,12 +3,13 @@
 	<head>
 		<title>To Do List</title>
 		<link rel="stylesheet" type="text/css" href="mainstyles.css"></link>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="main-header">
 			<ul class="menu">
 				<li class="menu-item app-name">To Do List</li>
-				<li class="menu-item">Load Tasks</li>
+				<li id="loadTasksLink" class="menu-item">Load Tasks</li>
 			</ul>
 			<!-- User icon -->
 			<div class="user-icon">
@@ -32,7 +33,7 @@
 
 		<!-- Main task area -->
 		<div class="main-task-area">
-			<ul>
+			<ul id="tasklist">
 				<li class="task">
 					<div class="task-header">
 						<input type="checkbox">
