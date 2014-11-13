@@ -1,0 +1,69 @@
+.main-header {
+	background-color: purple;
+	overflow: auto;
+}
+
+.menu {
+	float: left;
+	background-color: yellow;
+	/*text-align: center;*/
+	/*width: 90%;*/
+}
+
+.menu-item {
+	list-style-type: none;
+	display: inline;
+}
+
+.app-name {
+	background-color: orange;
+	/*margin: auto;*/
+}
+
+.user-icon {
+	background-color: blue;
+	float: right;
+	width: 10%;
+}
+
+.user-photo {
+	width: 100px;
+	height: auto;
+}
+
+.user-name {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	text-align: center;
+}
+
+.task-parent-title {
+	background-color: red;
+}
+
+.task-operations {
+	background-color: orange;
+}
+
+.main-task-area {
+	background-color: green;
+}
+
+.task {
+	background-color: yellow;
+	border-style: solid;
+	list-style-type: none;
+}
+
+.is-hidden {
+	display: none;
+}
+
+.show-more {
+	content: "More";
+}
+
+.show-less {
+	content: "Less";
+}

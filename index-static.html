@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To Do List</title>
+		<link rel="stylesheet" type="text/css" href="mainstyles.css"></link>
+	</head>
+	<body>
+		<div class="main-header">
+			<ul class="menu">
+				<li class="menu-item app-name">To Do List</li>
+				<li class="menu-item">Load Tasks</li>
+			</ul>
+			<!-- User icon -->
+			<div class="user-icon">
+				<img class="user-photo" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/005/097/056/188b094.jpg">
+				<p class="user-name">Chris</p>
+			</div>
+		</div>
+
+		<h1 class="task-parent-title">All Tasks</h1>
+		
+		<!-- Task operations -->
+		<div class="task-operations">
+			<form>
+				Search: <input type="text" placeholder="Search criteria...">
+				<input type="submit" value="Search">
+			</form>
+			<form>
+				<input type="checkbox" checked>Show Completed
+			</form>
+		</div>
+
+		<!-- Main task area -->
+		<div class="main-task-area">
+			<ul>
+				<li class="task">
+					<div class="task-header">
+						<input type="checkbox">
+						<span>Make the App</span>
+						<button class="more-button show-more">More</button>
+					</div>
+					<div class="task-details is-hidden">
+						<p>Make a cool app for practice</p>
+						<p>Sub-tasks:</p>
+						<ul>
+							<li class="task">
+								<input type="checkbox">
+								<span>Create Mockup</span>
+								<button class="more-button">More</button>
+							</li>
+							<li class="task">
+								<input type="checkbox">
+								<span>Add Files</span>
+								<button class="more-button">More</button>
+							</li>
+							<li class="task">
+								<input type="checkbox">
+								<span>Styling</span>
+								<button class="more-button">More</button>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="task">
+					<div class="task-header">
+						<input type="checkbox">
+						<span>Empty the dishwasher</span>
+						<button class="more-button show-more">More</button>
+					</div>
+					<div class="task-details is-hidden">
+						<p>Need to make room for new dirty dishes</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<script src="mainscript.js"></script>
+	</body>
+</html>
